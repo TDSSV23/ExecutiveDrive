@@ -502,6 +502,24 @@ footer {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* propaganda css */
 
 .popup {
@@ -535,7 +553,7 @@ footer {
 }
 
 .propaganda {
-    max-width: 100%; /* Faça a imagem se ajustar ao contêiner */
+    max-width: 100%;
     height: 500%;
     border-radius: 30px;
 }
@@ -811,3 +829,7 @@ button {
     -webkit-transform: translateY(calc(100% - 42px));
   }
 }
+
+
+
+
