@@ -25,12 +25,16 @@
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-<script src="caminho-para-owl-carousel/owl.carousel.min.js"></script>
- 
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script src="caminho-para-owl-carousel/owl.carousel.min.js"></script>
+
 
 </head>
 
@@ -80,25 +84,40 @@
 
           <!-- PERFIL NAVBAR COM DROPDOWN -->
           <div class="nav-item dropdown" id="perfilDropdown">
-            <a class="nav-link nav-02 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 18">
+            <a class="nav-link nav-02 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-person-circle" viewBox="0 0 16 18">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                 <path fill-rule="evenodd"
                   d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
               </svg>
-              &nbsp;Perfil
+              &nbsp;<o class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</o>
             </a>
             <ul class="dropdown-menu" aria-labelledby="perfilDropdown">
-              <li><a class="dropdown-item" href="./cadastro/cadastrologin.html"><i class="fas fa-user"><o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-              </svg></o></i> Minha Conta</a></li>
-              <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i><o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-              </svg></o> Configurações</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i><o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sign-turn-right-fill" viewBox="0 0 16 16">
-                <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466Z"/>
-              </svg></o> Sair</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fas fa-user">
+                    <o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                      </svg></o>
+                  </i> Minha Conta</a></li>
+              <li><a class="dropdown-item" href="#"><i class="fas fa-cog"></i>
+                  <o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-gear-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                    </svg></o> Configurações
+                </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i>
+                  <o><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-sign-turn-right-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435ZM9 8.466V7H7.5A1.5 1.5 0 0 0 6 8.5V11H5V8.5A2.5 2.5 0 0 1 7.5 6H9V4.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L9.41 8.658A.25.25 0 0 1 9 8.466Z" />
+                    </svg></o> Sair
+                </a></li>
             </ul>
           </div>
         </div>
@@ -108,462 +127,482 @@
 </nav>
 
 
+<!-- MODAL IFRAME CADASTRO LOGIN -->
 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg ">
+    <div class="modal-content" >
 
+        <a type="button" class="position-absolute text-decoration-none ms-4 mt-4 fs-2" data-bs-dismiss="modal" aria-label="Close" style="color: #0f0e28;">x</a>
 
+        <iframe src="./cadastro/cadastrologin.html" frameborder="0" class="iframe-login" ></iframe>
+      </div>
 
-
-  <!-- VIDEO FUNDO -->
-
-  <div class="position-relative quebra">
-    <video class="video1" src="video/videoporche.mp4" autoplay="0" muted loop></video>
-    <div class="position-absolute top-50 start-50 translate-middle">
-      <p class="p-title"> Accelerate With <o class="p-title2"> Us.</o>
-      </p>
     </div>
-
   </div>
 
 
-  <!-- TITULO CATEGORIAS -->
 
-  <div class="">
-    <p class="c-title" id="categorias">Categorias</p>
+
+
+
+<!-- VIDEO FUNDO -->
+
+<div class="position-relative quebra">
+  <video class="video1" src="video/videoporche.mp4" autoplay="0" muted loop></video>
+  <div class="position-absolute top-50 start-50 translate-middle">
+    <p class="p-title"> Accelerate With <o class="p-title2"> Us.</o>
+    </p>
   </div>
+
+</div>
+
+
+<!-- TITULO CATEGORIAS -->
+
+<div class="">
+  <p class="c-title" id="categorias">Categorias</p>
+</div>
 
 <br><br>
 
-  <!-- CARROSEL CATEGORIAS -->
+<!-- CARROSEL CATEGORIAS -->
 
 
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/ExPick.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="catego">Picapes</h1>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/ExSed.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="catego">Sedans</h1>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/ExHat.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="catego">Hatches</h1>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/ExSUV.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="catego">SUVs</h1>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/ExEletric.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1 class="catego">Elétricos</h1>
-        </div>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/ExPick.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="catego">Picapes</h1>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <br>
-
-
-  
-
-
-
-  <!--TITULO MARCAS MAIS BUSCADAS-->
-
-    <p class="c-title" id="marcas">Marcas mais Buscadas</p>
-
-    <br><br>  
-
-  <!--MARCAS-->
-  <div class="marcas d-flex">
-    <div class="card text-bg-dark">
-      <img src="images/LogoMB.png" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title"> </h5>
-        <p class="card-text"> </p>
-        <p class="card-text"><small> </small></p>
+    <div class="carousel-item">
+      <img src="./images/ExSed.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="catego">Sedans</h1>
       </div>
     </div>
-    <div class="card text-bg-dark">
-      <img src="images/LogoAudi.png" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title"> </h5>
-        <p class="card-text"> </p>
-        <p class="card-text"><small> </small></p>
+    <div class="carousel-item">
+      <img src="./images/ExHat.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="catego">Hatches</h1>
       </div>
     </div>
-    <div class="card text-bg-dark">
-      <img src="images/LogoBMW.png" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title"> </h5>
-        <p class="card-text"> </p>
-        <p class="card-text"><small> </small></p>
+    <div class="carousel-item">
+      <img src="./images/ExSUV.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="catego">SUVs</h1>
       </div>
     </div>
-    <div class="card text-bg-dark">
-      <img src="images/LogoPorsche.png" class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title"> </h5>
-        <p class="card-text"> </p>
-        <p class="card-text"><small> </small></p>
+    <div class="carousel-item">
+      <img src="./images/ExEletric.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="catego">Elétricos</h1>
       </div>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
 
-  <!-- TITULO OFERTAS -->
 
-  <div class="">
-    <p class="c-title" id="ofertas">Ofertas</p>
+
+
+
+
+<!--TITULO MARCAS MAIS BUSCADAS-->
+
+<p class="c-title" id="marcas">Marcas mais Buscadas</p>
+
+<br><br>
+
+<!--MARCAS-->
+<div class="marcas d-flex">
+  <div class="card text-bg-dark">
+    <img src="images/LogoMB.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
   </div>
+  <div class="card text-bg-dark">
+    <img src="images/LogoAudi.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
+  </div>
+  <div class="card text-bg-dark">
+    <img src="images/LogoBMW.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
+  </div>
+  <div class="card text-bg-dark">
+    <img src="images/LogoPorsche.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
+  </div>
+</div>
 
-  <!-- CARROSEL OFERTAS -->
+<!-- TITULO OFERTAS -->
+
+<div class="">
+  <p class="c-title" id="ofertas">Ofertas</p>
+</div>
+
+<!-- CARROSEL OFERTAS -->
 
 
-  <div id="carrossel2" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./images/BMW320i.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1><span class="bm">BMW</span> <span class="bm2">320i</span></h1>
-          <p>
-          <h4 class="bm3">2.0 SPORT 16V TURBO ACTIVE FLEX 4P AUTOMÁTICO 2018/2018 71.000km</h4>
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/AudiQ5.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>
-            <span class="audi">AUDI</span>
-            <span class="audi2">Q5</span>
-          </h1>
-          <p>
-          <h4 class="audi3">2.0 45 TFSI GASOLINA SPORTBACK S LINE QUATTRO S TRONIC 2021/2021 15.000km</h4>
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/Maselevant.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>
-            <o class="mase">Maserati</o>
-            <o class="mase2">Levante</o>
-          </h1>
-          <p>
-          <h4 class="mase3">3.0 V6 TURBO GASOLINA S Q4 AUTOMÁTICO 2019/2019 33.000km</h4>
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/FordFusion.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>
-            <o class="ford">Ford</o>
-            <o class="ford2">Fusion</o>
-          </h1>
-          <p>
-          <h4 class="ford3">2.0 TITANIUM AWD 16V GASOLINA 4P AUTOMÁTICO 2018/2019 11.400 km</h4>
-          </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./images/Porsche.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h1>
-            <o class="porc">Porsche</o>
-            <o class="porc2">Cayenne</o>
-          </h1>
-          <p>
-          <h4 class="porc3">3.0 V6 E-HYBRID AWD TIPTRONIC S 2019/2020 33.700km</h4>
-          </p>
-        </div>
+<div id="carrossel2" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/BMW320i.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1><span class="bm">BMW</span> <span class="bm2">320i</span></h1>
+        <p>
+        <h4 class="bm3">2.0 SPORT 16V TURBO ACTIVE FLEX 4P AUTOMÁTICO 2018/2018 71.000km</h4>
+        </p>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carrossel2" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carrossel2" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <br><br><br><br>
-
-
-
-  <!--TITULO LANÇAMENTOS-->
-  <div class="">
-    <p class="c-title" id="noticias">Lançamentos</p>
-  </div>
-
-  <!-- CARDS CAROUSEL LANCAMENTOS -->
-
-  <section class="game-section">
-    
-    <div class="owl-carousel custom-carousel owl-theme">
-      <div class="item active" style="background-image: url(./images/VOLVOEX30.jpg);">
-        <div class="item-desc">
-          <h3>Volvo EX30</h3>
-          <p>Preço sugerido: A partir de R$ 219.950
-            Volume de carga: Básica: 318 l / Bancos rebatidos: 904 l
-            Aceleração de 0 a 100 km/h: 5,3 - 5,7 segundos
-            Tempo de recarga da bateria: 29 - 40h (220 V)
-            Garantia: 3 anos / 100.000 km</p>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(./images/TurboGT.jpg);">
-        <div class="item-desc">
-          <h3>Porsche&nbsp;Cayenne&nbsp;Turbo</h3>
-          <p>Modelo: Porsche Cayenne Coupé
-            Preço sugerido: A partir de R$ 1,325 milhão
-            Potência: 640 - 659 HP
-            Aceleração de 0 a 100 km/h: 3,3 segundos
-            Motor: 4,0 l V8</p>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(./images/AUDIR8.jpg);">
-        <div class="item-desc">
-          <h3>Audi R8</h3>
-          <p>O motor disponível é o conhecido V10 5.2, aspirado, posicionado centralmente, que sofreu leves alterações para render 620 cv a 8000 rpm e 59,1 kgfm a 6600 rpm, acoplado a uma transmissão automatizada de dupla embreagem e 7 velocidades, S-Tronic. O esportivo mede 4429 mm de comprimento, 1940 mm de largura, 1236 mm de altura e 2650 mm de entre-eixos, e pesa 1.595 kg. Sua velocidade máxima é 331 km/h e ele chega a 100 km/h em 3,1 segundos.</p>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(./images/ferrari-296-gts.jpg);">
-        <div class="item-desc">
-          <h3>Ferrari 296 GTS</h3>
-          <p>Modelo: Ferrari 296
-            Aceleração de 0 a 100 km/h: 2,9 segundos
-            Estilos de carroceria: Conversível, Coupê
-            Configuração dos cilindros: Motor em V
-            Portas: 2
-            Tração: Tração traseira
-            Motor: 3,0 l V6 Elétrico</p>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(./images/BMW\ M5.jpg);">
-        <div class="item-desc">
-          <h3>BMW M5</h3>
-          <p>A BMW segue sua rotina de lançamentos no Brasil e traz uma das versões mais hardcore do Série 5 – conforme antecipado por Autoesporte. Preço? R$ 1.006.950. Sim: um milhão e seis mil novecentos e cinquenta reais.</p>
-        </div>
-      </div>
-      <div class="item" style="background-image: url(./images/Porsche\ 911\ GT3\ RS.jpg);">
-        <div class="item-desc">
-          <h3>Porsche 911 GT3 RS</h3>
-          <p>Modelo: Porsche 911
-            Preço sugerido: A partir de R$ 1,769 milhão
-            Tração: Tração traseira
-            Torque: 465 N·m
-            Potência: 525 HP
-            Aceleração de 0 a 100 km/h: 3,2 segundos
-            Velocidade máxima: 296 km/h
-            Peso: 1.450 kg</p>
-        </div>
+    <div class="carousel-item">
+      <img src="./images/AudiQ5.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>
+          <span class="audi">AUDI</span>
+          <span class="audi2">Q5</span>
+        </h1>
+        <p>
+        <h4 class="audi3">2.0 45 TFSI GASOLINA SPORTBACK S LINE QUATTRO S TRONIC 2021/2021 15.000km</h4>
+        </p>
       </div>
     </div>
+    <div class="carousel-item">
+      <img src="./images/Maselevant.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>
+          <o class="mase">Maserati</o>
+          <o class="mase2">Levante</o>
+        </h1>
+        <p>
+        <h4 class="mase3">3.0 V6 TURBO GASOLINA S Q4 AUTOMÁTICO 2019/2019 33.000km</h4>
+        </p>
+      </div>
     </div>
-  </section>
+    <div class="carousel-item">
+      <img src="./images/FordFusion.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>
+          <o class="ford">Ford</o>
+          <o class="ford2">Fusion</o>
+        </h1>
+        <p>
+        <h4 class="ford3">2.0 TITANIUM AWD 16V GASOLINA 4P AUTOMÁTICO 2018/2019 11.400 km</h4>
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/Porsche.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>
+          <o class="porc">Porsche</o>
+          <o class="porc2">Cayenne</o>
+        </h1>
+        <p>
+        <h4 class="porc3">3.0 V6 E-HYBRID AWD TIPTRONIC S 2019/2020 33.700km</h4>
+        </p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carrossel2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carrossel2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<br><br><br><br>
+
+
+
+<!--TITULO LANÇAMENTOS-->
+<div class="">
+  <p class="c-title" id="noticias">Lançamentos</p>
+</div>
+
+<!-- CARDS CAROUSEL LANCAMENTOS -->
+
+<section class="game-section">
+
+  <div class="owl-carousel custom-carousel owl-theme">
+    <div class="item active" style="background-image: url(./images/VOLVOEX30.jpg);">
+      <div class="item-desc">
+        <h3>Volvo EX30</h3>
+        <p>Preço sugerido: A partir de R$ 219.950
+          Volume de carga: Básica: 318 l / Bancos rebatidos: 904 l
+          Aceleração de 0 a 100 km/h: 5,3 - 5,7 segundos
+          Tempo de recarga da bateria: 29 - 40h (220 V)
+          Garantia: 3 anos / 100.000 km</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(./images/TurboGT.jpg);">
+      <div class="item-desc">
+        <h3>Porsche&nbsp;Cayenne&nbsp;Turbo</h3>
+        <p>Modelo: Porsche Cayenne Coupé
+          Preço sugerido: A partir de R$ 1,325 milhão
+          Potência: 640 - 659 HP
+          Aceleração de 0 a 100 km/h: 3,3 segundos
+          Motor: 4,0 l V8</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(./images/AUDIR8.jpg);">
+      <div class="item-desc">
+        <h3>Audi R8</h3>
+        <p>O motor disponível é o conhecido V10 5.2, aspirado, posicionado centralmente, que sofreu leves alterações
+          para render 620 cv a 8000 rpm e 59,1 kgfm a 6600 rpm, acoplado a uma transmissão automatizada de dupla
+          embreagem e 7 velocidades, S-Tronic. O esportivo mede 4429 mm de comprimento, 1940 mm de largura, 1236 mm de
+          altura e 2650 mm de entre-eixos, e pesa 1.595 kg. Sua velocidade máxima é 331 km/h e ele chega a 100 km/h em
+          3,1 segundos.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(./images/ferrari-296-gts.jpg);">
+      <div class="item-desc">
+        <h3>Ferrari 296 GTS</h3>
+        <p>Modelo: Ferrari 296
+          Aceleração de 0 a 100 km/h: 2,9 segundos
+          Estilos de carroceria: Conversível, Coupê
+          Configuração dos cilindros: Motor em V
+          Portas: 2
+          Tração: Tração traseira
+          Motor: 3,0 l V6 Elétrico</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(./images/BMW\ M5.jpg);">
+      <div class="item-desc">
+        <h3>BMW M5</h3>
+        <p>A BMW segue sua rotina de lançamentos no Brasil e traz uma das versões mais hardcore do Série 5 – conforme
+          antecipado por Autoesporte. Preço? R$ 1.006.950. Sim: um milhão e seis mil novecentos e cinquenta reais.</p>
+      </div>
+    </div>
+    <div class="item" style="background-image: url(./images/Porsche\ 911\ GT3\ RS.jpg);">
+      <div class="item-desc">
+        <h3>Porsche 911 GT3 RS</h3>
+        <p>Modelo: Porsche 911
+          Preço sugerido: A partir de R$ 1,769 milhão
+          Tração: Tração traseira
+          Torque: 465 N·m
+          Potência: 525 HP
+          Aceleração de 0 a 100 km/h: 3,2 segundos
+          Velocidade máxima: 296 km/h
+          Peso: 1.450 kg</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
 
 <br><br><br>
 
 
-  <!-- SOBRE DO NOSSO SITE -->
+<!-- SOBRE DO NOSSO SITE -->
 
-  <div class="position-relative quebra" id="sobre">
-    <img class="sobreimg" src="images/LamboSobre.jpg">
-    <div class="position-absolute top-50 start-50 translate-middle">
-      <p class="title-sobre"> Dreams on <o class="title-sobre2"> Wheels.</o>
-      </p>
-      <hr class="border border-2 opacity-100">
+<div class="position-relative quebra" id="sobre">
+  <img class="sobreimg" src="images/LamboSobre.jpg">
+  <div class="position-absolute top-50 start-50 translate-middle">
+    <p class="title-sobre"> Dreams on <o class="title-sobre2"> Wheels.</o>
+    </p>
+    <hr class="border border-2 opacity-100">
 
-      <p class="txt-sobre">
-        Nossa história começa em 2020, quando um grupo visionário de empreendedores apaixonados por automóveis de luxo
-        decidiu dar vida a um sonho audacioso. Eles compartilharam uma visão de proporcionar uma experiência única e
-        inigualável no mundo dos carros executivos. Assim nasceu a Executive Drive, um nome que se tornaria sinônimo de
-        luxo, sofisticação e excelência em transporte executivo.
-      </p>
+    <p class="txt-sobre">
+      Nossa história começa em 2020, quando um grupo visionário de empreendedores apaixonados por automóveis de luxo
+      decidiu dar vida a um sonho audacioso. Eles compartilharam uma visão de proporcionar uma experiência única e
+      inigualável no mundo dos carros executivos. Assim nasceu a Executive Drive, um nome que se tornaria sinônimo de
+      luxo, sofisticação e excelência em transporte executivo.
+    </p>
 
+  </div>
+</div>
+
+<!--TITULO NOTICIAS-->
+<div class="">
+  <p class="c-title" id="noticias">Notícias</p>
+</div>
+
+<!--NOTICIAS-->
+<div class="marcas d-flex">
+  <div class="card text-bg-dark">
+    <img src="images/Noticia_ford.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
     </div>
   </div>
-
-    <!--TITULO NOTICIAS-->
-    <div class="">
-      <p class="c-title" id="noticias">Notícias</p>
+  <div class="card text-bg-dark">
+    <img src="images/Noticia_tiguan.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
     </div>
-  
-    <!--NOTICIAS-->
-    <div class="marcas d-flex">
-      <div class="card text-bg-dark">
-        <img src="images/Noticia_ford.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title"> </h5>
-          <p class="card-text"> </p>
-          <p class="card-text"><small> </small></p>
-        </div>
+  </div>
+  <div class="card text-bg-dark">
+    <img src="images/Noticia_ranger.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
+  </div>
+  <div class="card text-bg-dark">
+    <img src="images/Noticia_civic.png" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title"> </h5>
+      <p class="card-text"> </p>
+      <p class="card-text"><small> </small></p>
+    </div>
+  </div>
+</div>
+
+
+<br><br><br><br><br>
+
+
+
+
+<!-- FOOTER DO SITE -->
+
+<footer class="position-absolute">
+  <div class="container-footer">
+    <div class="row-footer">
+      <!-- EMPRESA - FOOTER -->
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#"> Quem somos </a></li>
+          <li><a href=""> nossos serviços </a></li>
+          <li><a href=""> política de privacidade </a></li>
+
+        </ul>
       </div>
-      <div class="card text-bg-dark">
-        <img src="images/Noticia_tiguan.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title"> </h5>
-          <p class="card-text"> </p>
-          <p class="card-text"><small> </small></p>
-        </div>
+      <!-- OBTER AJUDA - FOOTER -->
+      <div class="footer-col">
+        <h4>Obter ajuda</h4>
+        <ul>
+          <li><a href="#">Suporte</a></li>
+          <li><a href="#">Empregos</a></li>
+          <li><a href=""> programa de afiliados</a></li>
+        </ul>
       </div>
-      <div class="card text-bg-dark">
-        <img src="images/Noticia_ranger.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title"> </h5>
-          <p class="card-text"> </p>
-          <p class="card-text"><small> </small></p>
-        </div>
+      <!-- NOSSA LOJA - FOOTER -->
+      <div class="footer-col">
+        <h4>Nossa Loja</h4>
+        <ul>
+          <li><a href="#">Marcas</a></li>
+          <li><a href="#">Categorias</a></li>
+          <li><a href="#">Modelos de Luxo</a></li>
+          <li><a href="#"></a></li>
+        </ul>
       </div>
-      <div class="card text-bg-dark">
-        <img src="images/Noticia_civic.png" class="card-img" alt="...">
-        <div class="card-img-overlay">
-          <h5 class="card-title"> </h5>
-          <p class="card-text"> </p>
-          <p class="card-text"><small> </small></p>
+      <!-- CONTATO - FOOTER -->
+      <div class="footer-col">
+        <h4 id="contato">Contato</h4>
+        <div class="form-sub">
+          <form>
+            <input type="text" placeholder="Digite o seu contato" required>
+            <button>Enviar</button>
+          </form>
         </div>
+
+        <div class="medias-socias">
+          <!-- LOGO GITHUB -->
+          <a href="https://github.com/TDSSV23/ExecutiveDrive"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg> <i class="fa fa-facebook"></i> </a>
+          <!-- LOGO FACEBOOK -->
+          <a href="https://www.facebook.com/people/Executive-Drive/61551876954608/?mibextid=ZbWKwL"> <svg
+              xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+              viewBox="0 0 16 16">
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+            </svg> <i class="fa fa-instagram"></i> </a>
+          <!-- LOGO INSTAGRAM -->
+          <a href="https://www.instagram.com/executive_drivee/"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg> <i class="fa fa-twitter"></i> </a>
+          <!-- LOGO TIKTOK -->
+          <a href="https://www.tiktok.com/@executive_drivee?lang=pt-BR"> <svg xmlns="http://www.w3.org/2000/svg"
+              width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+              <path
+                d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
+            </svg> <i class="fa fa-linkedin"></i> </a>
+        </div>
+
       </div>
     </div>
-
-
-    <br><br><br><br><br>
-
-
-    <!-- FOOTER DO SITE -->
-
-    <footer class="position-absolute">
-      <div class="container-footer">
-        <div class="row-footer">
-          <!-- EMPRESA - FOOTER -->
-          <div class="footer-col">
-            <h4>Empresa</h4>
-            <ul>
-              <li><a href="#"> Quem somos </a></li>
-              <li><a href=""> nossos serviços </a></li>
-              <li><a href=""> política de privacidade </a></li>
-
-            </ul>
-          </div>
-          <!-- OBTER AJUDA - FOOTER -->
-          <div class="footer-col">
-            <h4>Obter ajuda</h4>
-            <ul>
-              <li><a href="#">Suporte</a></li>
-              <li><a href="#">Empregos</a></li>
-              <li><a href=""> programa de afiliados</a></li>
-            </ul>
-          </div>
-          <!-- NOSSA LOJA - FOOTER -->
-          <div class="footer-col">
-            <h4>Nossa Loja</h4>
-            <ul>
-              <li><a href="#">Marcas</a></li>
-              <li><a href="#">Categorias</a></li>
-              <li><a href="#">Modelos de Luxo</a></li>
-              <li><a href="#"></a></li>
-            </ul>
-          </div>
-          <!-- CONTATO - FOOTER -->
-          <div class="footer-col">
-            <h4 id="contato">Contato</h4>
-            <div class="form-sub">
-              <form>
-                <input type="text" placeholder="Digite o seu contato" required>
-                <button>Enviar</button>
-              </form>
-            </div>
-
-            <div class="medias-socias">
-              <!-- LOGO GITHUB -->
-              <a href="https://github.com/TDSSV23/ExecutiveDrive"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-github" viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                </svg> <i class="fa fa-facebook"></i> </a>
-              <!-- LOGO FACEBOOK -->
-              <a href="https://www.facebook.com/people/Executive-Drive/61551876954608/?mibextid=ZbWKwL"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-facebook" viewBox="0 0 16 16">
-                  <path
-                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                </svg> <i class="fa fa-instagram"></i> </a>
-              <!-- LOGO INSTAGRAM -->
-              <a href="https://www.instagram.com/executive_drivee/"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path
-                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                </svg> <i class="fa fa-twitter"></i> </a>
-              <!-- LOGO TIKTOK -->
-              <a href="https://www.tiktok.com/@executive_drivee?lang=pt-BR"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-tiktok" viewBox="0 0 16 16">
-                  <path
-                    d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z" />
-                </svg> <i class="fa fa-linkedin"></i> </a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </footer>
+  </div>
+</footer>
 
 
 
-    <!--Seta para cima-->
-    <a href="#">
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
-          class="bi bi-arrow-up-circle-fill position-fixed mb-0 ms-0" viewBox="0 0 16 16">
-          <path
-              d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-      </svg>
-  </a>
+<!--Seta para cima-->
+<a href="#">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+    class="bi bi-arrow-up-circle-fill position-fixed mb-0 ms-0" viewBox="0 0 16 16">
+    <path
+      d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+  </svg>
+</a>
 
 
 
 <!-- PROPAGANDA -->
 
 
-    <div id="popup" class="popup">
-      <div class="popup-content">
-          <span class="fechar" id="fecharPopup" onclick="fecharPopup()">&times;</span>
-          <img class="propaganda" src="/images/propaaganda.jpg" alt="Propaganda">
-      </div>
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span class="fechar" id="fecharPopup" onclick="fecharPopup()">&times;</span>
+    <img class="propaganda" src="/images/propaaganda.jpg" alt="Propaganda">
   </div>
-  
-
+</div>
 
 </body>
 
 <script>
 
-$(".custom-carousel").owlCarousel({
-  autoWidth: true,
-  loop: true
-});
-$(document).ready(function () {
-  $(".custom-carousel .item").click(function () {
-    $(".custom-carousel .item").not($(this)).removeClass("active");
-    $(this).toggleClass("active");
+  $(".custom-carousel").owlCarousel({
+    autoWidth: true,
+    loop: true
   });
-});
+  $(document).ready(function () {
+    $(".custom-carousel .item").click(function () {
+      $(".custom-carousel .item").not($(this)).removeClass("active");
+      $(this).toggleClass("active");
+    });
+  });
 
 
 </script>

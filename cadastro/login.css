@@ -17,9 +17,10 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+
 body {
   align-items: center;
-  background-color: var(--white);
+  background-color: transparent;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +28,9 @@ body {
   display: grid;
   height: 100vh;
   place-items: center;
+  overflow-y: hidden;
 }
+
 
 .form__title {
   font-weight: 300;
@@ -235,4 +238,12 @@ body {
 
 .input:focus {
   outline: 2px solid black; /* Define a cor e a largura da borda de foco */
+}
+
+.container {
+  background-color: transparent; 
+}
+
+.overlay {
+  background-color: transparent;
 }
