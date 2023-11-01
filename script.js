@@ -8,7 +8,7 @@ function fecharPopup() {
     popup.style.display = 'none';
 }
 
-setTimeout(mostrarPopup, 2000);
+setTimeout(mostrarPopup, 15000);
 
 
 $(".custom-carousel").owlCarousel({
@@ -30,7 +30,7 @@ $(".custom-carousel").owlCarousel({
   })
 
 
-  $(".custom-carousel").owlCarousel({
+ $(".custom-carousel").owlCarousel({
     autoWidth: true,
     loop: true
   });
@@ -40,3 +40,5 @@ $(".custom-carousel").owlCarousel({
       $(this).toggleClass("active");
     });
   });
+
+
